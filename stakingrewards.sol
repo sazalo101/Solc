@@ -1,6 +1,6 @@
 //SPDX-License-Identifier:MIT
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-pragma solidity 0.8.26;
+pragma solidity ^0.8.26;
 
 contract stakingrewards{
    IERC20 public immutable stakingToken;
